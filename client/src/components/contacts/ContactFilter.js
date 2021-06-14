@@ -2,7 +2,7 @@ import React, { useContext, useRef, useEffect } from "react";
 import ContactContext from "../../context/contact/contactContext";
 const ContactFilter = () => {
   const contactContext = useContext(ContactContext);
-  const { filterContact, clearFilter, filtered } = contactContext;
+  const { filterContacts, clearFilter, filtered } = contactContext;
   const text = useRef(0);
   useEffect(() => {
     if (filtered === null) {
@@ -11,7 +11,7 @@ const ContactFilter = () => {
   });
   const onChange = (e) => {
     if (text.current.value !== "") {
-      filterContact(e.target.value);
+      filterContacts(e.target.value);
     } else {
       clearFilter();
     }
