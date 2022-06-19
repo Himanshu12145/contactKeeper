@@ -4,6 +4,11 @@
 > Application to save contacts of some registered users using React
 > 
 
+## Preview of our website
+![SS3](https://user-images.githubusercontent.com/66507003/174467876-b07dc34f-0f1c-432b-a9b7-f18a60083cdb.png)
+![SS1](https://user-images.githubusercontent.com/66507003/174467878-719675f9-2bed-448c-ad1f-0eea17c5f79e.png)
+![SS2](https://user-images.githubusercontent.com/66507003/174467879-11685ab8-af64-4298-aff4-0e590ed3fdab.png)
+
 
 ## Postman Routes
 
